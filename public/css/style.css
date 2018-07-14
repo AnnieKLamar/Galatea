@@ -110,7 +110,7 @@ GLOBAL BUTTON STYLE
 	-webkit-animation: BtnGradient 5s ease infinite;
 	-o-animation: BtnGradient 5s ease infinite;
 	animation: BtnGradient 5s ease infinite;
-	color: #bfbfbf;
+	color: #513d82;
 }
 
 
@@ -127,7 +127,7 @@ GLOBAL BUTTON STYLE
     outline: none !important;
     -webkit-box-shadow: inset 0 0 0 2px transparent;
     box-shadow: inset 0px 0px 0px 2px transparent;
-    color: #fff;
+    color: #513d82;
 }
 
 /*IE9 Fixing*/

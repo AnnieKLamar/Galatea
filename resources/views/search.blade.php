@@ -1,17 +1,12 @@
 @extends('head_foot')
 @section('title')
-<h1>Galatea</h1>
+Galatea
 @stop
 @section('content')
 <body>
           <!-- slider content -->
           <div id="x-corp-carousel" class="carousel slide hero-slide" data-ride="carousel">
             <!-- Indicators -->
-            <ol class="carousel-indicators">
-                <li data-target="#x-corp-carousel" data-slide-to="0" class="active"></li>
-                <li data-target="#x-corp-carousel" data-slide-to="1"></li>
-            </ol>
-
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
@@ -52,7 +47,7 @@
                                     {{ Form::text('publisher', null,  ['placeholder' => 'Publisher', 'class' => 'form-control form control -lg', 'tabindex' => '9'])  }}
                                   </div>
                                   <div class="col-12 col-md-12" style="margin-top: 35px">
-                                      {{ Form::submit('Search', ['class' => 'btn btn-block btn-lg btn-primary'])}}
+                                      {{ Form::submit('Search', ['class' => 'btn btn-block btn-lg btn-primary btn-dark text-dark bg-black'])}}
                                   </div>
                               {{ Form::close()}}
                               
@@ -63,34 +58,10 @@
                 </div>
                 <!--.item-->
 
-                <div class="item">
-                    <img src="img/slider/slide-2.jpg" alt="Hero Slide">
-                    <!--Slide Image-->
 
-                    <div class="container">
-                        <div class="carousel-caption">
-
-                            <h1 class="animated bounceIn">Advanced Search</h1>
-
-                            <p class="lead animated bounceIn">Energistically benchmark resource maximizing catalysts for change with <br> enterprise collaboration and idea-sharing. Dramatically evisculate.</p>
-                            <a class="btn btn-default animated bounceIn" href="#">Search</a>
-                        </div>
-                        <!--.carousel-caption-->
-                    </div>
-                    <!--.container-->
-                </div>
                 <!--.item-->
             </div>
-            <!--.carousel-inner-->
-            <!-- Controls -->
-            <a class="left carousel-control" href="#x-corp-carousel" role="button" data-slide="prev">
-                <i class="fa fa-angle-left" aria-hidden="true"></i>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="right carousel-control" href="#x-corp-carousel" role="button" data-slide="next">
-                <i class="fa fa-angle-right" aria-hidden="true"></i>
-                <span class="sr-only">Next</span>
-            </a>
+
         </div>
                  <!-- /end slider section -->
                </body>

@@ -2,7 +2,7 @@
 <html lang="en">
 
 	<title>
-	@yiel('title')
+	@yield('title')
 	</title>
 
 	<head>
