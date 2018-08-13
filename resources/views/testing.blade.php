@@ -1,10 +1,13 @@
 <?php
-echo "HIIIIII";
+	use App\Models\Author;
+	use App\Models\Section;
 
-use App\Models\Author;
-echo "BBBYYYEEE";
+	$brett = Author::where('author_first_name', 'Brett M.')->first();
 
-$authors = Author::all();
-foreach ($authors as $author) {
-	echo $author->author_first_name;
-}
+	foreach($brett->sections()->get() as $section)
+	{
+		echo $section->title;
+		echo "<br>";
+	}
+
+?>
