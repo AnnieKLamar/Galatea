@@ -4,6 +4,8 @@ Galatea
 @stop
 @section('content')
 <body>
+
+
           <!-- slider content -->
           <div id="x-corp-carousel" class="carousel slide hero-slide" data-ride="carousel">
             <!-- Indicators -->

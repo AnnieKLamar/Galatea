@@ -75,11 +75,7 @@
 				<footer id="contact" class="footer-widget-wrapper">
 					<div class="container">
 						<div class="row">
-							<div class="col-sm-3 col-md-3 col-md-offset-1">
-								<div class="footer-widget">
-									<a href="#"><img class="img-fluid" height= "60" width = "298" src="img/logo.png" alt=""></a>
-								</div><!-- /.col-md-6 -->
-							</div><!-- /.col-md-6 -->
+
 							<div class="col-sm-3 col-md-2 col-lg-2">
 								<div class="footer-widget">
 									<h3>Social</h3>
@@ -89,12 +85,13 @@
 									</ul>
 								</div><!-- /.footer-widget -->
 							</div><!-- /.col-md-2 -->
-							<div class="col-sm-3 col-md-3">
+							<div class="col-sm-3 col-md-2 col-lg-2">
 								<div class="footer-widget">
 									<h3>Website Authors</h3>
-										<p><a href="#">Annie K. Lamar</a></p>
-										<p><a href="#">Robert W. Shelton</a></p>
-
+									<ul>
+										<li><a href="#">Robert Shelton</a></li>
+										<li><a href="#">Annie K. Lamar</a></li>
+									</ul>
 								</div><!-- /.footer-widget -->
 							</div><!-- /.col-md-2 -->
 							<div class="col-sm-3 col-md-3">
