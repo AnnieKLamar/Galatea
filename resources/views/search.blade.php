@@ -8,7 +8,7 @@ Galatea
           <div id="x-corp-carousel" class="carousel slide hero-slide" data-ride="carousel">
             <!-- Indicators -->
             <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox">
+            <div class="carousel-inner">
                 <div class="item active">
                     <img src="img/slider/slide-1.jpg" alt="Hero Slide">
                     <!--Slide Image-->
@@ -19,10 +19,10 @@ Galatea
                             <h1 class="animated lightSpeedIn text-center">Advanced Search</h1>
                                 {{ Form::open(['url' => 'advanced_search_results']) }}
                                   <div class="col-12 col-md-12 mb-12 mb-md-0">
-                                    {{ Form::text('title', null,  ['placeholder' => 'Title', 'class' => 'form-control form control -lg', 'tabindex' => '1'])  }} 
+                                    {{ Form::text('title', null,  ['placeholder' => 'Title', 'class' => 'form-control form control -lg', 'tabindex' => '1'])  }}
                                   </div>
                                   <div class = "col-6 col-md-6 mb-12 mb-md-0" style="margin-top: 10px">
-                                    {{ Form::text('author_fname', null,  ['placeholder' => 'Author First Name', 'class' => 'form-control form control -lg', 'tabindex' => '4'])  }} 
+                                    {{ Form::text('author_fname', null,  ['placeholder' => 'Author First Name', 'class' => 'form-control form control -lg', 'tabindex' => '4'])  }}
                                   </div>
                                   <div class = "col-6 col-md-6 mb-12 mb-md-0" style="margin-top: 10px">
                                     {{ Form::text('author_lname', null,  ['placeholder' => 'Author Last Name', 'class' => 'form-control form control -lg', 'tabindex' => '5'])  }}
@@ -32,13 +32,13 @@ Galatea
                                   </div>
                                   <div class = "col-6 col-md-6 mb-12 mb-md-0" style="margin-top: 10px">
                                     {{ Form::text('editor_lname', null,  ['placeholder' => 'Editor Last Name', 'class' => 'form-control form control -lg', 'tabindex' => '7'])  }}
-                                  </div>                                  
+                                  </div>
                                   <div class="col-12 col-md-12 mb-12 mb-md-0" style="margin-top: 10px">
-                                      {{ Form::text('keywords', null,  ['placeholder' => 'Keywords (Semicolon Separated)', 'class' => 'form-control form control -lg', 'tabindex' => '2'])  }} 
+                                      {{ Form::text('keywords', null,  ['placeholder' => 'Keywords (Semicolon Separated)', 'class' => 'form-control form control -lg', 'tabindex' => '2'])  }}
                                   </div>
 
                                   <div class = "col-6 col-md-6 mb-12 mb-md-0" style="margin-top: 10px">
-                                    {{ Form::select('language',  ['E' => 'English', 'F' => 'French', 'G' => 'German', 'I' => 'Italian'], 'E', ['class' => 'btn btn-primary btn-block btn-lg dropdown-toggle'])  }} 
+                                    {{ Form::select('language',  ['E' => 'English', 'F' => 'French', 'G' => 'German', 'I' => 'Italian'], 'E', ['class' => 'btn btn-primary btn-block btn-lg dropdown-toggle'])  }}
                                   </div>
                                   <div class = "col-6 col-md-6 mb-12 mb-md-0" style="margin-top: 10px">
                                     {{ Form::text('year_of_publication', null,  ['placeholder' => 'Year of Publication', 'class' => 'form-control form control -lg', 'tabindex' => '8'])  }}
@@ -50,8 +50,8 @@ Galatea
                                       {{ Form::submit('Search', ['class' => 'btn btn-block btn-lg btn-primary btn-dark text-dark bg-black'])}}
                                   </div>
                               {{ Form::close()}}
-                              
-                            
+
+
                           </div>
                         </div>
                     </div>
