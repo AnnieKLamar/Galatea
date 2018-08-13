@@ -11,12 +11,12 @@
 
 		    public function sources()
 		    {
-		    	return $this->hasMany('App\Models\Source');
+		    	return $this->belongsToMany('App\Models\Source');
 		    }
 
 		    public function sections()
 		    {
-		    	return $this->hasMany('App\Models\Section');
+		    	return $this->belongsToMany('App\Models\Section');
 		    }
 		
 	}

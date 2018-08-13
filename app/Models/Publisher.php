@@ -10,7 +10,7 @@
 
 		    public function sources()
 		    {
-		    	return $this->hasMany('App\Models\Source');
+		    	return $this->belongsToMany('App\Models\Source');
 		    }
 		
 	}
