@@ -100,9 +100,9 @@ GLOBAL BUTTON STYLE
 /*btn-primary*/
 .btn-primary {
     border-radius: 40px !important;
-    background-image: -webkit-linear-gradient(left, #2770d1 20%, #6b329a 88%);
-    background-image: -o-linear-gradient(left, #2770d1 20%, #6b329a 88%);
-    background-image: linear-gradient(to right, #2770d1 20%, #6b329a 88%);
+    background-image: -webkit-linear-gradient(45deg, #3a2772 30%, #190b2e 75%);
+    background-image: -o-linear-gradient(45deg, #3a2772 30%, #190b2e 75%);
+    background-image: linear-gradient(45deg, #3a2772 30%, #190b2e 75%);
     background-repeat: repeat-x;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff2770d1', endColorstr='#ff6b329a', GradientType=1);
     filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
@@ -116,9 +116,9 @@ GLOBAL BUTTON STYLE
 .active.btn-primary,
 .btn-primary:focus {
     border-radius: 40px !important;
-    background-image: -webkit-linear-gradient(left, #2770d1 20%, #6b329a 88%);
-    background-image: -o-linear-gradient(left, #2770d1 20%, #6b329a 88%);
-    background-image: linear-gradient(to right, #2770d1 20%, #6b329a 88%);
+    background-image: -webkit-linear-gradient(45deg, #3a2772 30%, #190b2e 75%);
+    background-image: -o-linear-gradient(45deg, #3a2772 30%, #190b2e 75%);
+    background-image: linear-gradient(45deg, #3a2772 30%, #190b2e 75%);
     background-repeat: repeat-x;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff2770d1', endColorstr='#ff6b329a', GradientType=1);
     filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
@@ -213,13 +213,13 @@ NAVIGATION
 --------------------------------------------------------------------- */
 @media(min-width:767px) {
 	.navbar {
-	    padding: 20px 0;
+	    padding: 10px 0;
 	}
 	.navbar.sticky{
 	    padding: 10px 0;
 	}
 	.navbar-nav {
-		padding-top: 15px;
+		padding-top: 10px;
 	}
 	.sticky .navbar-nav {
 		padding-top: 10px;
@@ -1026,7 +1026,7 @@ FOOTER SECTION
     background-image: linear-gradient(45deg, #3a2772 30%, #190b2e 75%);
     filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1, startColorstr='#3a2772', endColorstr='#190b2e');
     color: #ffffff;
-    padding: 100px 0 46px;
+    padding: 25px 0 25px;
 }
 
 
@@ -1041,7 +1041,7 @@ FOOTER SECTION
 }
 
 .footer-widget.footer-logo {
-    padding: 40px 0 40px 50px;
+    padding: 0px 0 0px 0px;
     position: relative;
 }
 .footer-widget.footer-logo::after {

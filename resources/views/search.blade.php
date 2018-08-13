@@ -12,7 +12,7 @@ Galatea
             <!-- Wrapper for slides -->
             <div class="carousel-inner">
                 <div class="item active">
-                    <img src="img/slider/slide-1.jpg" alt="Hero Slide">
+                    <img src="img/slider/slide-1-new.jpg" alt="Hero Slide">
                     <!--Slide Image-->
 
                     <div class="container" align="center">

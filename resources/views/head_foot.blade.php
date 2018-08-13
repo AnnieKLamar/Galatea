@@ -154,7 +154,7 @@
 								</div><!-- /.footer-widget -->
 							</div><!-- /.col-md-2 -->
 						</div><!-- /.row -->
-
+<!--
 						<div class="row">
 							<div class="col-xs-12 text-center">
 								<div class="copyright">
@@ -162,6 +162,7 @@
 								</div>
 							</div>
 						</div>
+-->
 
 					</div><!-- /.container -->
 				</footer>
