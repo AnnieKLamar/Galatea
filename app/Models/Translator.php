@@ -6,19 +6,18 @@
 	use App\Models\Section;
 	use App\Models\Source;
 
-	class Author extends Model {
-		protected $table = 'authors';
+	class Translator extends Model {
+		protected $table = 'translators';
 
 		    public function sections()
 		    {
-		        return $this->belongsToMany('App\Models\Section');
+		        return $this->hasMany('App\Models\Section');
 		    }
 
 		    public function sources()
 		    {
-		    	return $this->belongsToMany('App\Models\Source');
+		    	return $this->hasMany('App\Models\Source');
 		    }
+		
 	}
-
 ?>
-
