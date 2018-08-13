@@ -18,7 +18,7 @@ Galatea
                     <div class="container" align="center">
                         <div class="carousel-caption">
                           <div class="row">
-                            <h1 class="animated lightSpeedIn text-center">Advanced Search</h1>
+                            <h1 class="text-center">Advanced Search</h1>
                                 {{ Form::open(['url' => 'advanced_search_results']) }}
                                   <div class="col-12 col-md-12 mb-12 mb-md-0">
                                     {{ Form::text('title', null,  ['placeholder' => 'Title', 'class' => 'form-control form control -lg', 'tabindex' => '1'])  }}
