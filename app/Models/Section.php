@@ -18,12 +18,17 @@
 
 		    public function editors()
 		    {
-		    	return $this->belongsToMany('App\Model\Editor');
+		    	return $this->belongsToMany('App\Models\Editor');
 		    }
 
 		    public function translators()
 		    {
-		    	return $this->belongsToMany('App\Model\Translator');
+		    	return $this->belongsToMany('App\Models\Translator');
+		    }
+
+		    public function source()
+		    {
+		    	return $this->belongsTo('App\Models\Source');
 		    }
 	}
 ?>

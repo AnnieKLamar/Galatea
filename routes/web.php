@@ -15,7 +15,7 @@ Route::get('/', function () {
     return view('search');
 });
 
-Route::get('advanced_search_results', 'Controller@advanced_search_results');
+Route::post('advanced_search_results', 'Controller@advanced_search_results');
 
 Route::get('contact', function() {
 	return view('contact');

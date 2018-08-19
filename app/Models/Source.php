@@ -19,17 +19,22 @@
 
 		    public function editors()
 		    {
-		    	return $this->belongsToMany('App\Model\Editor');
+		    	return $this->belongsToMany('App\Models\Editor');
 		    }
 
 		    public function publishers()
 		    {
-		    	return $this->belongsToMany('App\Model\Publisher');
+		    	return $this->belongsToMany('App\Models\Publisher');
 		    }
 
 		    public function translators()
 		    {
-		    	return $this->belongsToMany('App\Model\Translator');
+		    	return $this->belongsToMany('App\Models\Translator');
+		    }
+
+		    public function sections()
+		    {
+		    	return $this->hasMany('App\Models\Section');
 		    }
 		
 	}

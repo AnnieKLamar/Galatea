@@ -24,29 +24,29 @@ Galatea
                                     {{ Form::text('title', null,  ['placeholder' => 'Title', 'class' => 'form-control form control -lg', 'tabindex' => '1'])  }}
                                   </div>
                                   <div class = "col-6 col-md-6 mb-12 mb-md-0" style="margin-top: 10px">
-                                    {{ Form::text('author_fname', null,  ['placeholder' => 'Author First Name', 'class' => 'form-control form control -lg', 'tabindex' => '4'])  }}
+                                    {{ Form::text('author_fname', null,  ['placeholder' => 'Author First Name', 'class' => 'form-control form control -lg', 'tabindex' => '2'])  }}
                                   </div>
                                   <div class = "col-6 col-md-6 mb-12 mb-md-0" style="margin-top: 10px">
-                                    {{ Form::text('author_lname', null,  ['placeholder' => 'Author Last Name', 'class' => 'form-control form control -lg', 'tabindex' => '5'])  }}
+                                    {{ Form::text('author_lname', null,  ['placeholder' => 'Author Last Name', 'class' => 'form-control form control -lg', 'tabindex' => '3'])  }}
                                   </div>
                                   <div class = "col-6 col-md-6 mb-12 mb-md-0" style="margin-top: 10px">
-                                    {{ Form::text('editor_fname', null,  ['placeholder' => 'Editor First Name', 'class' => 'form-control form control -lg', 'tabindex' => '6'])  }}
+                                    {{ Form::text('editor_fname', null,  ['placeholder' => 'Editor First Name', 'class' => 'form-control form control -lg', 'tabindex' => '4'])  }}
                                   </div>
                                   <div class = "col-6 col-md-6 mb-12 mb-md-0" style="margin-top: 10px">
-                                    {{ Form::text('editor_lname', null,  ['placeholder' => 'Editor Last Name', 'class' => 'form-control form control -lg', 'tabindex' => '7'])  }}
+                                    {{ Form::text('editor_lname', null,  ['placeholder' => 'Editor Last Name', 'class' => 'form-control form control -lg', 'tabindex' => '5'])  }}
                                   </div>
                                   <div class="col-12 col-md-12 mb-12 mb-md-0" style="margin-top: 10px">
-                                      {{ Form::text('keywords', null,  ['placeholder' => 'Keywords (Semicolon Separated)', 'class' => 'form-control form control -lg', 'tabindex' => '2'])  }}
+                                      {{ Form::text('keywords', null,  ['placeholder' => 'Keywords (Semicolon Separated)', 'class' => 'form-control form control -lg', 'tabindex' => '6'])  }}
                                   </div>
 
                                   <div class = "col-6 col-md-6 mb-12 mb-md-0" style="margin-top: 10px">
-                                    {{ Form::select('language',  ['E' => 'English', 'F' => 'French', 'G' => 'German', 'I' => 'Italian'], 'E', ['class' => 'btn btn-primary btn-block btn-lg dropdown-toggle'])  }}
+                                    {{ Form::select('language',  ['X' => 'Select Language', 'English' => 'English', 'French' => 'French', 'German' => 'German', 'Italian' => 'Italian'], 'X', ['class' => 'btn btn-primary btn-block btn-lg dropdown-toggle'])  }}
                                   </div>
                                   <div class = "col-6 col-md-6 mb-12 mb-md-0" style="margin-top: 10px">
-                                    {{ Form::text('year_of_publication', null,  ['placeholder' => 'Year of Publication', 'class' => 'form-control form control -lg', 'tabindex' => '8'])  }}
+                                    {{ Form::text('year_of_publication', null,  ['placeholder' => 'Year of Publication', 'class' => 'form-control form control -lg', 'tabindex' => '7'])  }}
                                   </div>
                                   <div class="col-12 col-md-12 mb-12 mb-md-0" style="margin-top: 10px">
-                                    {{ Form::text('publisher', null,  ['placeholder' => 'Publisher', 'class' => 'form-control form control -lg', 'tabindex' => '9'])  }}
+                                    {{ Form::text('publisher', null,  ['placeholder' => 'Publisher', 'class' => 'form-control form control -lg', 'tabindex' => '8'])  }}
                                   </div>
                                   <div class="col-12 col-md-12" style="margin-top: 35px">
                                       {{ Form::submit('Search', ['class' => 'btn btn-block btn-lg btn-primary btn-dark text-dark bg-black'])}}
