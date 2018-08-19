@@ -25,3 +25,14 @@ Route::get('testing', function() {
 	return view('testing');
 });
 
+Route::get('about', function() {
+  return view('about');
+});
+
+Route::get('search', function() {
+  return view('search');
+});
+
+Route::get('contact_us', function() {
+	return view('contact_us');
+});

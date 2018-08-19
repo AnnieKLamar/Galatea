@@ -196,7 +196,7 @@ SECTION
 	content: " ";
 	width: 61px;
 	height: 15px;
-	background: url(../img/star.png) no-repeat center center;
+	/* background: url(../img/star.png) no-repeat center center; */
 	bottom: 0;
 	left: 50%;
 	bottom: -20px;
@@ -626,7 +626,7 @@ figure.css-hover-effect:hover .figure-link i{
 TEAM SECTION
 --------------------------------------------------------------------- */
 .team-section {
-	background-color: #f6f6f6;
+	background-color: #f0edf9;
 }
 .team-intro {
 	margin-top: 40px;

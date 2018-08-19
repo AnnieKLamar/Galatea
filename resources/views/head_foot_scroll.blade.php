@@ -58,10 +58,10 @@
 							<!-- Collect the nav links, forms, and other content for toggling -->
 							<div class="collapse navbar-collapse navbar-collapse">
 								<ul class="nav navbar-nav navbar-right">
-									<li><a href="#search">Search</a></li>
-									<li><a href="#contact">Contact Us</a></li>
-									<li><a href="#login">Log In</a></li>
-									<li><a href="#about">About</a></li>
+									<li><a href="search">Search</a></li>
+									<li><a class="feedback-modal" data-toggle="modal" data-target="#feedModal" href="contact">Contact Us</a></li>
+									<li><a href="search">Log In</a></li>
+									<li><a href="about">About</a></li>
 								</ul>
 							</div> <!--/.navbar-collapse -->
 						</div><!-- /.container -->
@@ -98,7 +98,7 @@
 									<h3>Get in Touch</h3>
 
 									<a href="mailto:#">classicalreceptions@gmail.com</a>
-									<a class="feedback-modal" data-toggle="modal" data-target="#feedModal" href="contact">Send us your feedback</a>
+									<a class="feedback-modal" data-toggle="modal" data-target="#feedModal" href="contact">Make a Suggestion</a>
 
 									<!-- Modal -->
 									<div class="modal fade" id="feedModal" tabindex="-1" role="dialog" aria-labelledby="feedModalLabel" aria-hidden="true">
@@ -106,7 +106,7 @@
 									    <div class="modal-content">
 									      <div class="modal-header">
 									        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-									        <h4 class="modal-title" id="feedModalLabel">Send us your feedback</h4>
+									        <h4 class="modal-title" id="feedModalLabel">Make a Suggestion</h4>
 									      </div>
 									      <div class="modal-body">
 											<form id="contactForm" action="sendemail.php" method="POST">
@@ -173,10 +173,10 @@
 	        <h3>Sidebar Menu</h3>
 	        <ul class="list-unstyled">
 	            <li class="active"><a class="offcanvas-link" href="#page-top">Home<span class="sr-only">(current)</span></a></li>
-									<li><a class="page-scroll" href="#search">Search</a></li>
-									<li><a class="page-scroll" href="#contact">Contact Us</a></li>
-									<li><a class="page-scroll" href="#login">Log In</a></li>
-									<li><a class="page-scroll" href="#about">About</a></li>
+									<li><a href="search">Search</a></li>
+									<li><a class="feedback-modal" data-toggle="modal" data-target="#feedModal" href="contact">Contact Us</a></li>
+									<li><a href="search">Log In</a></li>
+									<li><a href="about">About</a></li>
 	        </ul>
       	</div><!-- .offcanvas-menu -->
 	</div><!-- /st-container -->
